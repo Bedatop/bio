@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #475F45;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.section {
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.header__content {
+    display: flex;
+    margin-top: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    padding-right: 141px;
+}
+
+.logo__img {
+    padding-right: 14px;
+}
+
+.nav__item {
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+
+.logo__title {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    padding-bottom: 3px;
+    color: #343D33;
+    text-transform: uppercase;
+}
+
+.nav__item--border {
+    border: 2px solid #475F45;
+    padding: 15px 30px;
+    position: relative;
+    top: -15px;
+}
+
+.nav__item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: center;
+    padding-top: 76px;
+}
+
+.hero__img {
+    border-radius: 500px 500px 0px 0px;
+    width: 458px;
+    height: 640px;
+}
+
+.hero__info {
+    padding-top: 170px;
+    padding-right: 184px;
+}
+
+.btn {
+    border: 2px solid #475F45;
+    padding: 20px 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 12px;
+    margin-top: 32px;
+}
+
+.btn--active {
+    background-color: #475F45;
+    color: white;
+}
+
+p {
+    font-weight: 300;
+    font-size: 25px;
+    color: #414840;
+}
